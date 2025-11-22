@@ -7,6 +7,9 @@ spring:
   application:
     name: ROOMBILLZ-DOCUMENT-SERVICE
 
+  profiles:
+    active: local
+    
   main:
     allow-bean-definition-overriding: true
 
